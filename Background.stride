@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="Background" extends="World" extends-java="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class Background.</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="1300,731,1" params-java="1300, 731, 1"/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="private" type="void" type-java="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepare the world for the start of the program.
+That is: create the initial objects and add them to the world.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="Beruang" type-java="Beruang" name="beruang" value="new Beruang()" value-java=" new Beruang()" enable="true"/>
+                <call expression="addObject(beruang,116,556)" expression-java="addObject(beruang, 116, 556)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel,526,305)" expression-java="addObject(apel, 526, 305)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel2" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel2,618,514)" expression-java="addObject(apel2, 618, 514)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel3" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel3,784,322)" expression-java="addObject(apel3, 784, 322)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel4" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel4,971,516)" expression-java="addObject(apel4, 971, 516)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel5" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel5,959,67)" expression-java="addObject(apel5, 959, 67)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel6" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel6,701,111)" expression-java="addObject(apel6, 701, 111)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel7" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel7,1079,260)" expression-java="addObject(apel7, 1079, 260)" enable="true"/>
+                <variable type="Counter" type-java="Counter" name="counter" value="new Counter()" value-java=" new Counter()" enable="true"/>
+                <call expression="addObject(counter,124,74)" expression-java="addObject(counter, 124, 74)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel8" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel8,1163,134)" expression-java="addObject(apel8, 1163, 134)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel9" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel9,1188,356)" expression-java="addObject(apel9, 1188, 356)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel10" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel10,1157,522)" expression-java="addObject(apel10, 1157, 522)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel11" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel11,1003,368)" expression-java="addObject(apel11, 1003, 368)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel12" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel12,939,208)" expression-java="addObject(apel12, 939, 208)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel13" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel13,827,90)" expression-java="addObject(apel13, 827, 90)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel14" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel14,904,330)" expression-java="addObject(apel14, 904, 330)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel15" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel15,828,192)" expression-java="addObject(apel15, 828, 192)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel16" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel16,836,445)" expression-java="addObject(apel16, 836, 445)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel17" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel17,1038,147)" expression-java="addObject(apel17, 1038, 147)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel18" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel18,1108,68)" expression-java="addObject(apel18, 1108, 68)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel19" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel19,1196,234)" expression-java="addObject(apel19, 1196, 234)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel20" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel20,1089,448)" expression-java="addObject(apel20, 1089, 448)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel21" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel21,1068,589)" expression-java="addObject(apel21, 1068, 589)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel22" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel22,1180,613)" expression-java="addObject(apel22, 1180, 613)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel23" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel23,876,527)" expression-java="addObject(apel23, 876, 527)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel24" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel24,932,614)" expression-java="addObject(apel24, 932, 614)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel25" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel25,696,232)" expression-java="addObject(apel25, 696, 232)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel26" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel26,571,63)" expression-java="addObject(apel26, 571, 63)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel27" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel27,592,181)" expression-java="addObject(apel27, 592, 181)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel28" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel28,672,323)" expression-java="addObject(apel28, 672, 323)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel29" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel29,700,407)" expression-java="addObject(apel29, 700, 407)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel30" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel30,748,513)" expression-java="addObject(apel30, 748, 513)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel31" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel31,787,604)" expression-java="addObject(apel31, 787, 604)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel32" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel32,538,445)" expression-java="addObject(apel32, 538, 445)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel33" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel33,612,629)" expression-java="addObject(apel33, 612, 629)" enable="true"/>
+                <variable type="Beruang" type-java="Beruang" name="beruang2" value="new Beruang()" value-java=" new Beruang()" enable="true"/>
+                <call expression="addObject(beruang2,122,234)" expression-java="addObject(beruang2, 122, 234)" enable="true"/>
+                <call expression="removeObject(beruang2)" expression-java="removeObject(beruang2)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel34" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel34,489,156)" expression-java="addObject(apel34, 489, 156)" enable="true"/>
+                <variable type="Apel" type-java="Apel" name="apel35" value="new Apel()" value-java=" new Apel()" enable="true"/>
+                <call expression="addObject(apel35,528,564)" expression-java="addObject(apel35, 528, 564)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
